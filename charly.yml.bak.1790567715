@@ -1,7 +1,9 @@
+version: 2026.240.1943
 examplestep-consumer:
     candy:
+        version: 2026.175.0001
         candy:
-            - '@github.com/opencharly/plugin-example-step/candy/plugin-example-step:v2026.242.0529'
+            - '@github.com/opencharly/plugin-example-step/candy/plugin-example-step:v2026.239.1643'
         description: |-
             Reference CONSUMER candy for the build-time plugin-execution example. Its
             plan carries a BUILD-context `run:` step `plugin: examplestep` which, at
